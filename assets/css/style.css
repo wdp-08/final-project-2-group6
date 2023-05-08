@@ -1,0 +1,62 @@
+body {
+    font-family: 'Nunito';font-size: 22px;
+}
+
+.card-size {
+    width: 380px;
+    height: 380px;
+    border-radius: 60%;
+}
+
+.card.body {
+    border-radius: 60%;
+}
+
+.card {
+    border-radius: 15%;
+    width: 380px;
+    height: 380px;
+    border-color: transparent;
+    background-color: #F2F6FF;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue-text {
+    color: #234CAD;
+}
+
+.card-price-duration {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.card-price-category {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.price-button {
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.custom-outline {
+    color: #234CAD;
+    background-color: transparent;
+    border-color: #234CAD;
+}
+
+.btn-outline-primary:hover {
+    background: #000000;
+    color: #305eca;
+  }
