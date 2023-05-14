@@ -128,3 +128,20 @@ body {
   .border-item {
     border-radius: 25px;
   }
+
+  .text-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .date-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+.row-margin {
+    margin-right: -60;
+}
