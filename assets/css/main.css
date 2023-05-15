@@ -30,7 +30,18 @@ h6 {
 .circle-style img{
     width: 12px;
     margin: 0px auto;
-
+}
+.circle-style-future{
+    background-color:#F2F6FF;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px; 
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+.circle-style-future img{
+    margin: 0px auto;
 }
 .tombol-blue{
     background-color: white;
@@ -52,9 +63,9 @@ h6 {
 
 .banner{
     background-color: var(--second-color);
-    padding: 70px;
-    border-radius: 30px;
-    margin-top: 50px;
+    padding: 30px;
+    border-radius: 0px;
+    margin: 20px auto;
 }
 
 .tombol-blue-large{
@@ -66,27 +77,31 @@ h6 {
     border: 1.9px solid var(--primary-color);
     font-size: 1.5rem;
 }
-.box{
-    background-color: white;
+.r-position{
+    display: none;
+}
+.box {
+    background-color: #FFFFFF;
     border-radius: 15px;
     padding: 10px;
     margin: 10px;
-    align-items: center;
+    align-items :  center;
 }
-.inline-style{
+.inline-style {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items :  center;
 }
-.content-box{
-    margin-left: 10px;
+.content-box {
+    margin-left:    10px;
 }
 .content-box b{
-    font-size: 0.7rem;
+    font-size:  0.7rem;
 }
 .content-box p{
-    font-size: 0.5rem;
+    font-size:  0.5rem;
 }
+
 .box-secound {
     background-color: var(--second-color);
     padding: 50px;

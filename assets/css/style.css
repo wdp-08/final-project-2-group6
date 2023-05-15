@@ -1,59 +1,60 @@
 body {
-    font-family: 'Nunito';font-size: 22px;
+  font-family: "Nunito";
+  font-size: 22px;
 }
 
 .card-size {
-    width: 380px;
-    height: 380px;
-    border-radius: 60%;
+  width: 380px;
+  height: 380px;
+  border-radius: 60%;
 }
 
 .card.body {
-    border-radius: 60%;
+  border-radius: 60%;
 }
 
 .card {
-    border-radius: 15%;
-    width: 380px;
-    height: 380px;
-    border-color: transparent;
-    background-color: #F2F6FF;
+  border-radius: 15%;
+  width: 380px;
+  height: 380px;
+  border-color: transparent;
+  background-color: #f2f6ff;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .blue-text {
-    color: #234CAD;
+  color: #234cad;
 }
 
 .card-price-duration {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .card-price-category {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
 }
 
 .price-button {
-    box-sizing: border-box;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 40px;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
 }
 
 .custom-outline {
-    color: #234CAD;
-    background-color: transparent;
-    border-color: #234CAD;
+  color: #234cad;
+  background-color: transparent;
+  border-color: #234cad;
 }
 
 .btn-outline-primary:hover {
@@ -70,3 +71,67 @@ body {
 .border-item {
     border-radius: 24px;
 }
+
+.contact {
+    margin-bottom: 1rem;
+  }
+  
+  .contact {
+    padding: 4.7rem;
+    border-radius: 60px;
+    background-color: #f2f6ff;
+  }
+  
+  .contact p {
+    font-size: 12px;
+  }
+  
+  .contact input[type="text"] {
+    width: 500px;
+    height: 65px;
+    background: #fff;
+    border-radius: 17.5px;
+    border: none;
+    position: relative;
+    padding-right: 60px;
+    /* color: #234cad; */
+  }
+  
+  input::placeholder {
+    color: #305eca;
+    font-size: 13px;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .contact .wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .contact img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 23%;
+    right: 6%;
+  }
+  
+  .contact img.icon {
+    width: 9px;
+    height: 17px;
+    left: 89%;
+    right: 6%;
+    top: 41%;
+    bottom: 33%;
+  }
+  
+  .row .col h3 {
+    color: #234cad;
+  }
+  
+  .row .col p {
+    font-size: 12px;
+    color: #234cad;
+  }
+  
