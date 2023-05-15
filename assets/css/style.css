@@ -60,3 +60,13 @@ body {
     background: #000000;
     color: #305eca;
   }
+
+.date-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px
+}
+
+.border-item {
+    border-radius: 24px;
+}
